@@ -1,0 +1,180 @@
+[33mcommit d6b4d8172629bce02bfda0bed38ca9248de1b910[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: RANIE SOARES DA COSTA <54813595+ranie2019@users.noreply.github.com>
+Date:   Sun Jan 28 20:46:35 2024 -0300
+
+    Update .gitignore
+
+[33mcommit f28650734828f3e844bde0c135dba3b690ab0c17[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 18:00:22 2024 -0300
+
+    28
+
+[33mcommit d0bb74a1bd09b5b29f2ed96039914763c5818812[m
+Author: RANIE SOARES DA COSTA <54813595+ranie2019@users.noreply.github.com>
+Date:   Sun Jan 28 17:50:17 2024 -0300
+
+    Create Library
+
+[33mcommit e72784a327f1c9369618ee49b0c4cb948a94a8b9[m
+Merge: fa960b2 8d25da3
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 17:40:50 2024 -0300
+
+    Merge branch 'main' of https://github.com/ranie2019/VR_Xadrex
+
+[33mcommit fa960b28bda1ab0a8c700d622da4ab98c401a5eb[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 17:39:24 2024 -0300
+
+    25
+
+[33mcommit 8d25da35985aa6fd15580db4fbe15db55b00d903[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 17:37:06 2024 -0300
+
+    23
+
+[33mcommit a6d0f9ee3b9a9e8f7a87c1e3f7198fc5498794c2[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 17:28:14 2024 -0300
+
+    21
+
+[33mcommit ace293829a011966f44d3d2aaa4fe298865f272b[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 17:27:12 2024 -0300
+
+    22
+
+[33mcommit fff388407a4b4207ae67f2cb1776a019668e464a[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 17:25:25 2024 -0300
+
+    21
+
+[33mcommit 84b858bcfa6b7a7f69096e0d37bb5dc66ec39103[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 17:23:56 2024 -0300
+
+    20
+
+[33mcommit 2f28b95e5f7a4156645dddffeb3422aa52e4e747[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 17:22:12 2024 -0300
+
+    19
+
+[33mcommit 08ee603151a29db5bf4d54220323d956cd12703b[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 17:18:34 2024 -0300
+
+    18
+
+[33mcommit 164b1a98b309d90eea86e8d17ca699b171bcb452[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 17:17:04 2024 -0300
+
+    17
+
+[33mcommit a725b1bc19cba87c6500145bc942791fc1b517df[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 17:15:11 2024 -0300
+
+    16
+
+[33mcommit b4d4937007f5b639ebada86e7a6a48b2ac68a4ed[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 17:09:35 2024 -0300
+
+    15
+
+[33mcommit 0568c3901fc7684bac8e56ed88257cfc669178df[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 17:07:34 2024 -0300
+
+    14
+
+[33mcommit 733b513d7c467826959a4080f2e0bb4dcbf506df[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 17:05:11 2024 -0300
+
+    13
+
+[33mcommit f610dd012169737b9174f6a0c373df964801cab6[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 17:02:29 2024 -0300
+
+    12
+
+[33mcommit df38949b1500017f42759b856add36c2d6af6eec[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 17:01:26 2024 -0300
+
+    11
+
+[33mcommit 2c65c0913351e5ae7f28a013b4df5b4ae457dcb9[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 17:00:29 2024 -0300
+
+    10
+
+[33mcommit 8157f0c53163f6ad425953ec8abddd23e260118b[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 16:59:27 2024 -0300
+
+    9
+
+[33mcommit c07221f02e862034ef70142c4cb5f28713a5f20b[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 16:58:45 2024 -0300
+
+    8
+
+[33mcommit ac5069893c5815714e3af97b39c360a2001fa342[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 16:57:36 2024 -0300
+
+    7
+
+[33mcommit 0b25146602896795f27cd0db6058b61c94d33692[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 16:54:25 2024 -0300
+
+    6
+
+[33mcommit 778791b5a3a79b84ccce6c481f2a2932e2fc2901[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 16:48:07 2024 -0300
+
+    5
+
+[33mcommit befecf8842fac3f06f37dcc9886e1b3b6bf2ea1d[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 16:46:05 2024 -0300
+
+    4
+
+[33mcommit 44f4b6b01aab99e26c14c051047572a28cac81d8[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 15:04:24 2024 -0300
+
+    3
+
+[33mcommit 310f9287af95670a12e2de2ac0b60fc8fb34ee37[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 14:59:39 2024 -0300
+
+    2
+
+[33mcommit dcdc5f37b0333d6356562b429b2b931be3512a89[m
+Author: ranie2019 <ranie.black29@gmail.com>
+Date:   Sun Jan 28 14:56:29 2024 -0300
+
+    1
+
+[33mcommit acdb774201cd8f5b53aeda417dedc423862d36c2[m
+Author: RANIE SOARES DA COSTA <54813595+ranie2019@users.noreply.github.com>
+Date:   Sun Jan 28 14:54:09 2024 -0300
+
+    Initial commit
