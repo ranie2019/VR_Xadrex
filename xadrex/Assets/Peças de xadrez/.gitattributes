@@ -1,0 +1,2 @@
+*Chess[[:space:]]set.fbx filter=lfs diff=lfs merge=lfs -text
+*chess[[:space:]]set filter=lfs diff=lfs merge=lfs -text
