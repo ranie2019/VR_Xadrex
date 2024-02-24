@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class VerificarColisao : MonoBehaviour
 {
@@ -6,34 +6,55 @@ public class VerificarColisao : MonoBehaviour
     private bool colisaoDetectada = false;
     public float tempoAtivacao = 3f; // Tempo em segundos
 
-    void Start()
+    private void Start()
     {
-        // Obt�m o componente MeshRenderer do objeto associado a este script
-        meshRenderer = GetComponent<MeshRenderer>();
-
-        // Desativa o MeshRenderer no in�cio
-        meshRenderer.enabled = false;
+        // Garante que os componentes necessários existam antes de acessá-los
+        InicializarComponentes();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        // Verifica se o objeto com o qual estamos colidindo tem a tag "Black"
-        if (other.gameObject.CompareTag("Black"))
+        // Verifica se a colisão ocorreu com um objeto "White" ou "Black"
+        if (other.CompareTag("White") || other.CompareTag("Black"))
         {
-            Debug.Log("Colis�o detectada com um objeto Black!" + other.gameObject.name);
+            // Registra a colisão no console
+            Debug.Log("Colisão detectada com um objeto " + other.tag + "! Nome: " + other.gameObject.name);
 
-            // Ativa o MeshRenderer
-            meshRenderer.enabled = true;
-            colisaoDetectada = true;
-
-            // Inicia a contagem regressiva para desativar o MeshRenderer ap�s o tempo especificado
-            Invoke("DesativarMeshRenderer", tempoAtivacao);
+            // Ativa o MeshRenderer e inicia a contagem regressiva para desativá-lo
+            AtivarMeshRenderer();
         }
+    }
+
+    private void InicializarComponentes()
+    {
+        // Obtém o componente MeshRenderer
+        meshRenderer = GetComponent<MeshRenderer>();
+
+        // Verifica se o MeshRenderer foi encontrado
+        if (meshRenderer == null)
+        {
+            Debug.LogError("MeshRenderer não encontrado no objeto: " + gameObject.name);
+        }
+        else
+        {
+            // Desativa o MeshRenderer inicialmente
+            meshRenderer.enabled = false;
+        }
+    }
+
+    private void AtivarMeshRenderer()
+    {
+        // Ativa o MeshRenderer
+        meshRenderer.enabled = true;
+        colisaoDetectada = true;
+
+        // Inicia a contagem regressiva para desativar o MeshRenderer após o tempo especificado
+        Invoke("DesativarMeshRenderer", tempoAtivacao);
     }
 
     private void DesativarMeshRenderer()
     {
-        // Desativa o MeshRenderer ap�s o tempo especificado
+        // Desativa o MeshRenderer após o tempo especificado
         meshRenderer.enabled = false;
         colisaoDetectada = false;
     }
