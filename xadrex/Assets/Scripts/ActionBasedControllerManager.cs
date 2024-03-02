@@ -6,10 +6,6 @@ using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
 
-/// <summary>
-/// Use this class to map input actions to each controller state (mode)
-/// and set up the transitions between controller states (modes).
-/// </summary>
 [AddComponentMenu("XR/Action Based Controller Manager")]
 [DefaultExecutionOrder(kControllerManagerUpdateOrder)]
 public class ActionBasedControllerManager : MonoBehaviour
@@ -33,20 +29,13 @@ public class ActionBasedControllerManager : MonoBehaviour
     [Serializable]
     public class StateExitEvent : UnityEvent<StateId> { }
 
-    /// <summary>
-    /// Use this class to create a controller state and set up its enter, update, and exit events.
-    /// </summary>
     [Serializable]
     public class ControllerState
     {
-        [SerializeField] 
+        [SerializeField]
         [Tooltip("Sets the controller state to be active. " +
                  "For the default states, setting this value to true will automatically update their StateUpdateEvent.")]
         bool m_Enabled;
-        /// <summary>
-        /// Sets the controller state to be active.
-        /// For the default states, setting this value to true will automatically update their <see cref="StateUpdateEvent"/>.
-        /// </summary>
         public bool enabled
         {
             get => m_Enabled;
@@ -56,9 +45,6 @@ public class ActionBasedControllerManager : MonoBehaviour
         [SerializeField]
         [HideInInspector]
         StateId m_Id;
-        /// <summary>
-        /// Sets the identifier of the <see cref="ControllerState"/> from all the optional Controller States that the <see cref="ActionBasedControllerManager"/> holds.
-        /// </summary>
         public StateId id
         {
             get => m_Id;
@@ -67,9 +53,6 @@ public class ActionBasedControllerManager : MonoBehaviour
 
         [SerializeField]
         StateEnterEvent m_OnEnter = new StateEnterEvent();
-        /// <summary>
-        /// The <see cref="StateEnterEvent"/> that will be invoked when entering the controller state.
-        /// </summary>
         public StateEnterEvent onEnter
         {
             get => m_OnEnter;
@@ -78,20 +61,14 @@ public class ActionBasedControllerManager : MonoBehaviour
 
         [SerializeField]
         StateUpdateEvent m_OnUpdate = new StateUpdateEvent();
-        /// <summary>
-        /// The <see cref="StateUpdateEvent"/> that will be invoked when updating the controller state.
-        /// </summary>
         public StateUpdateEvent onUpdate
         {
             get => m_OnUpdate;
             set => m_OnUpdate = value;
-        } 
-        
+        }
+
         [SerializeField]
         StateExitEvent m_OnExit = new StateExitEvent();
-        /// <summary>
-        /// The <see cref="StateExitEvent"/> that will be invoked when exiting the controller state.
-        /// </summary>
         public StateExitEvent onExit
         {
             get => m_OnExit;
@@ -100,28 +77,20 @@ public class ActionBasedControllerManager : MonoBehaviour
 
         public ControllerState(StateId defaultId = StateId.None) => this.id = defaultId;
     }
-    
+
     [Space]
-    [Header("Controller GameObjects") ]
+    [Header("Controller GameObjects")]
 
     [SerializeField, FormerlySerializedAs("m_BaseControllerGO")]
-    [Tooltip("The base controller GameObject, used for changing default settings on its components during state transitions.")]
     GameObject m_BaseControllerGameObject;
-    /// <summary>
-    /// The base controller <see cref="GameObject"/>, used for changing default settings on its components during state transitions.
-    /// </summary>
     public GameObject baseControllerGameObject
     {
         get => m_BaseControllerGameObject;
         set => m_BaseControllerGameObject = value;
     }
-    
+
     [SerializeField, FormerlySerializedAs("m_TeleportControllerGO")]
-    [Tooltip("The teleport controller GameObject, used for changing default settings on its components during state transitions.")]
     GameObject m_TeleportControllerGameObject;
-    /// <summary>
-    /// The teleport controller <see cref="GameObject"/>, used for changing default settings on its components during state transitions.
-    /// </summary>
     public GameObject teleportControllerGameObject
     {
         get => m_TeleportControllerGameObject;
@@ -129,15 +98,10 @@ public class ActionBasedControllerManager : MonoBehaviour
     }
 
     [Space]
-    [Header("Controller Actions") ]
+    [Header("Controller Actions")]
 
-    // State transition actions
     [SerializeField]
-    [Tooltip("The reference to the action of activating the teleport mode for this controller.")]
     InputActionReference m_TeleportModeActivate;
-    /// <summary>
-    /// The reference to the action of activating the teleport mode for this controller."
-    /// </summary>
     public InputActionReference teleportModeActivate
     {
         get => m_TeleportModeActivate;
@@ -145,24 +109,15 @@ public class ActionBasedControllerManager : MonoBehaviour
     }
 
     [SerializeField]
-    [Tooltip("The reference to the action of canceling the teleport mode for this controller.")]
     InputActionReference m_TeleportModeCancel;
-    /// <summary>
-    /// The reference to the action of canceling the teleport mode for this controller."
-    /// </summary>
     public InputActionReference teleportModeCancel
     {
         get => m_TeleportModeCancel;
         set => m_TeleportModeCancel = value;
     }
 
-    // Character movement actions
     [SerializeField]
-    [Tooltip("The reference to the action of turning the XR rig with this controller.")]
     InputActionReference m_Turn;
-    /// <summary>
-    /// The reference to the action of turning the XR rig with this controller.
-    /// </summary>
     public InputActionReference turn
     {
         get => m_Turn;
@@ -170,24 +125,15 @@ public class ActionBasedControllerManager : MonoBehaviour
     }
 
     [SerializeField]
-    [Tooltip("The reference to the action of moving the XR rig with this controller.")]
     InputActionReference m_Move;
-    /// <summary>
-    /// The reference to the action of moving the XR rig with this controller.
-    /// </summary>
     public InputActionReference move
     {
         get => m_Move;
         set => m_Move = value;
     }
 
-    // Object control actions
     [SerializeField, FormerlySerializedAs("m_TranslateObject")]
-    [Tooltip("The reference to the action of translating the selected object of this controller.")]
     InputActionReference m_TranslateAnchor;
-    /// <summary>
-    /// The reference to the action of translating the selected object of this controller.
-    /// </summary>
     public InputActionReference translateAnchor
     {
         get => m_TranslateAnchor;
@@ -195,11 +141,7 @@ public class ActionBasedControllerManager : MonoBehaviour
     }
 
     [SerializeField, FormerlySerializedAs("m_RotateObject")]
-    [Tooltip("The reference to the action of rotating the selected object of this controller.")]
     InputActionReference m_RotateAnchor;
-    /// <summary>
-    /// The reference to the action of rotating the selected object of this controller.
-    /// </summary>
     public InputActionReference rotateAnchor
     {
         get => m_RotateAnchor;
@@ -207,38 +149,21 @@ public class ActionBasedControllerManager : MonoBehaviour
     }
 
     [Space]
-    [Header("Default States") ]
+    [Header("Default States")]
 
-#pragma warning disable IDE0044 // Add readonly modifier -- readonly fields cannot be serialized by Unity
     [SerializeField]
-    [Tooltip("The default Select state and events for the controller.")]
     ControllerState m_SelectState = new ControllerState(StateId.Select);
-    /// <summary>
-    /// (Read Only) The default Select state.
-    /// </summary>
     public ControllerState selectState => m_SelectState;
 
     [SerializeField]
-    [Tooltip("The default Teleport state and events for the controller.")]
     ControllerState m_TeleportState = new ControllerState(StateId.Teleport);
-    /// <summary>
-    /// (Read Only) The default Teleport state.
-    /// </summary>
     public ControllerState teleportState => m_TeleportState;
 
     [SerializeField]
-    [Tooltip("The default Interact state and events for the controller.")]
     ControllerState m_InteractState = new ControllerState(StateId.Interact);
-    /// <summary>
-    /// (Read Only) The default Interact state.
-    /// </summary>
     public ControllerState interactState => m_InteractState;
-#pragma warning restore IDE0044
 
-    // The list to store and run the default states
     readonly List<ControllerState> m_DefaultStates = new List<ControllerState>();
-
-    // Components of the controller to switch on and off for different states
     XRBaseController m_BaseController;
     XRBaseInteractor m_BaseInteractor;
     XRInteractorLineVisual m_BaseLineVisual;
@@ -252,7 +177,6 @@ public class ActionBasedControllerManager : MonoBehaviour
         FindBaseControllerComponents();
         FindTeleportControllerComponents();
 
-        // Add default state events.
         m_SelectState.onEnter.AddListener(OnEnterSelectState);
         m_SelectState.onUpdate.AddListener(OnUpdateSelectState);
         m_SelectState.onExit.AddListener(OnExitSelectState);
@@ -268,7 +192,6 @@ public class ActionBasedControllerManager : MonoBehaviour
 
     protected void OnDisable()
     {
-        // Remove default state events.
         m_SelectState.onEnter.RemoveListener(OnEnterSelectState);
         m_SelectState.onUpdate.RemoveListener(OnUpdateSelectState);
         m_SelectState.onExit.RemoveListener(OnExitSelectState);
@@ -282,19 +205,15 @@ public class ActionBasedControllerManager : MonoBehaviour
         m_InteractState.onExit.RemoveListener(OnExitInteractState);
     }
 
-    // Start is called before the first frame update
     protected void Start()
     {
-        // Add states to the list
         m_DefaultStates.Add(m_SelectState);
         m_DefaultStates.Add(m_TeleportState);
         m_DefaultStates.Add(m_InteractState);
 
-        // Initialize to start in m_SelectState
         TransitionState(null, m_SelectState);
     }
 
-    // Update is called once per frame
     protected void Update()
     {
         foreach (var state in m_DefaultStates)
@@ -344,7 +263,6 @@ public class ActionBasedControllerManager : MonoBehaviour
                 Debug.LogWarning($"Cannot find any {nameof(XRBaseInteractor)} component on the Base Controller GameObject.", this);
         }
 
-        // Only check the line visual component for RayInteractor, since DirectInteractor does not use the line visual component
         if (m_BaseInteractor is XRRayInteractor && m_BaseLineVisual == null)
         {
             m_BaseLineVisual = m_BaseControllerGameObject.GetComponent<XRInteractorLineVisual>();
@@ -383,57 +301,43 @@ public class ActionBasedControllerManager : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Find and configure the components on the base controller.
-    /// </summary>
-    /// <param name="enable"> Set it true to enable the base controller, false to disable it. </param>
     void SetBaseController(bool enable)
     {
         FindBaseControllerComponents();
 
         if (m_BaseController != null)
             m_BaseController.enableInputActions = enable;
-        
+
         if (m_BaseInteractor != null)
             m_BaseInteractor.enabled = enable;
-        
+
         if (m_BaseInteractor is XRRayInteractor && m_BaseLineVisual != null)
             m_BaseLineVisual.enabled = enable;
     }
 
-    /// <summary>
-    /// Find and configure the components on the teleport controller.
-    /// </summary>
-    /// <param name="enable"> Set it true to enable the teleport controller, false to disable it. </param>
     void SetTeleportController(bool enable)
     {
         FindTeleportControllerComponents();
 
-        if (m_TeleportLineVisual != null) 
+        if (m_TeleportLineVisual != null)
             m_TeleportLineVisual.enabled = enable;
-        
+
         if (m_TeleportController != null)
             m_TeleportController.enableInputActions = enable;
-        
+
         if (m_TeleportInteractor != null)
             m_TeleportInteractor.enabled = enable;
     }
 
     void OnEnterSelectState(StateId previousStateId)
     {
-        // Change controller and enable actions depending on the previous state
         switch (previousStateId)
         {
-            case StateId.None: 
-                // Enable transitions to Teleport state 
+            case StateId.None:
                 EnableAction(m_TeleportModeActivate);
                 EnableAction(m_TeleportModeCancel);
-
-                // Enable turn and move actions
                 EnableAction(m_Turn);
                 EnableAction(m_Move);
-
-                // Enable base controller components
                 SetBaseController(true);
                 break;
             case StateId.Select:
@@ -455,7 +359,6 @@ public class ActionBasedControllerManager : MonoBehaviour
 
     void OnExitSelectState(StateId nextStateId)
     {
-        // Change controller and disable actions depending on the next state
         switch (nextStateId)
         {
             case StateId.None:
@@ -477,30 +380,24 @@ public class ActionBasedControllerManager : MonoBehaviour
         }
     }
 
-    void OnEnterTeleportState(StateId previousStateId) => SetTeleportController(true); 
+    void OnEnterTeleportState(StateId previousStateId) => SetTeleportController(true);
 
     void OnExitTeleportState(StateId nextStateId) => SetTeleportController(false);
 
     void OnEnterInteractState(StateId previousStateId)
     {
-        // Enable object control actions
         EnableAction(m_TranslateAnchor);
         EnableAction(m_RotateAnchor);
     }
 
     void OnExitInteractState(StateId nextStateId)
     {
-        // Disable object control actions
         DisableAction(m_TranslateAnchor);
         DisableAction(m_RotateAnchor);
     }
 
-    /// <summary>
-    /// This method is automatically called each frame to handle initiating transitions out of the Select state.
-    /// </summary>
     void OnUpdateSelectState()
     {
-        // Transition from Select state to Teleport state when the user triggers the "Teleport Mode Activate" action but not the "Cancel Teleport" action
         var teleportModeAction = GetInputAction(m_TeleportModeActivate);
         var cancelTeleportModeAction = GetInputAction(m_TeleportModeCancel);
 
@@ -513,33 +410,26 @@ public class ActionBasedControllerManager : MonoBehaviour
             return;
         }
 
-        // Transition from Select state to Interact state when the interactor has a selectTarget
         FindBaseControllerComponents();
 
         if (m_BaseInteractor.selectTarget != null)
             TransitionState(m_SelectState, m_InteractState);
     }
 
-    /// <summary>
-    /// Updated every frame to handle the transition to m_SelectState state.
-    /// </summary>
     void OnUpdateTeleportState()
     {
-        // Transition from Teleport state to Select state when we release the Teleport trigger or cancel Teleport mode
-
         var teleportModeAction = GetInputAction(m_TeleportModeActivate);
         var cancelTeleportModeAction = GetInputAction(m_TeleportModeCancel);
 
         var cancelTeleport = cancelTeleportModeAction != null && cancelTeleportModeAction.triggered;
         var releasedTeleport = teleportModeAction != null && teleportModeAction.phase == InputActionPhase.Waiting;
 
-        if (cancelTeleport || releasedTeleport) 
+        if (cancelTeleport || releasedTeleport)
             TransitionState(m_TeleportState, m_SelectState);
     }
 
     void OnUpdateInteractState()
     {
-        // Transition from Interact state to Select state when the base interactor no longer has a select target
         if (m_BaseInteractor.selectTarget == null)
             TransitionState(m_InteractState, m_SelectState);
     }
@@ -560,8 +450,6 @@ public class ActionBasedControllerManager : MonoBehaviour
 
     static InputAction GetInputAction(InputActionReference actionReference)
     {
-#pragma warning disable IDE0031 // Use null propagation -- Do not use for UnityEngine.Object types
         return actionReference != null ? actionReference.action : null;
-#pragma warning restore IDE0031
     }
 }

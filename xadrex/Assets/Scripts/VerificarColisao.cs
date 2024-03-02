@@ -3,12 +3,11 @@
 public class VerificarColisao : MonoBehaviour
 {
     private MeshRenderer meshRenderer;
-    private bool colisaoDetectada = false;
     public float tempoAtivacao = 3f; // Tempo em segundos
 
     private void Start()
     {
-        // Garante que os componentes necessários existam antes de acessá-los
+        // Certifica-se de que o MeshRenderer existe antes de acessá-lo
         InicializarComponentes();
     }
 
@@ -46,7 +45,6 @@ public class VerificarColisao : MonoBehaviour
     {
         // Ativa o MeshRenderer
         meshRenderer.enabled = true;
-        colisaoDetectada = true;
 
         // Inicia a contagem regressiva para desativar o MeshRenderer após o tempo especificado
         Invoke("DesativarMeshRenderer", tempoAtivacao);
@@ -56,6 +54,5 @@ public class VerificarColisao : MonoBehaviour
     {
         // Desativa o MeshRenderer após o tempo especificado
         meshRenderer.enabled = false;
-        colisaoDetectada = false;
     }
 }

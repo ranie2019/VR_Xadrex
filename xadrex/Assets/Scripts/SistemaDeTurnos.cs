@@ -23,12 +23,14 @@ public class SistemaDeTurnos : MonoBehaviour
 
     void InicializarPecas()
     {
+        // Encontra as peças brancas e pretas no início do jogo
         pecasBrancas = GameObject.FindGameObjectsWithTag("White");
         pecasPretas = GameObject.FindGameObjectsWithTag("Black");
 
         // Desabilita a interação para as peças pretas no início
         DesativarInteracaoPecas(pecasPretas);
-        AtivarInteracaoPecas(pecasBrancas); // Ativa a interação para as peças brancas no início
+        // Ativa a interação para as peças brancas no início
+        AtivarInteracaoPecas(pecasBrancas);
     }
 
     void TentarMoverPeca()
@@ -76,7 +78,8 @@ public class SistemaDeTurnos : MonoBehaviour
             XRGrabInteractable grabInteractable = peca.GetComponent<XRGrabInteractable>();
             if (grabInteractable != null)
             {
-                grabInteractable.interactionLayerMask = -1; // Ativa todas as camadas de interação
+                // Ativa todas as camadas de interação
+                grabInteractable.interactionLayers = -1;
             }
         }
     }
@@ -88,7 +91,8 @@ public class SistemaDeTurnos : MonoBehaviour
             XRGrabInteractable grabInteractable = peca.GetComponent<XRGrabInteractable>();
             if (grabInteractable != null)
             {
-                grabInteractable.interactionLayerMask = 0; // Desativa todas as camadas de interação
+                // Desativa todas as camadas de interação
+                grabInteractable.interactionLayers = 0;
             }
         }
     }
