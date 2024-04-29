@@ -1,0 +1,89 @@
+
+=== Tue Jul 20 09:42:13 2021
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were updated:
+  com.unity.test-framework from version 1.1.26 to 1.1.27
+
+=== Wed Dec 20 22:46:53 2023
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.ai.navigation@1.1.4
+The following packages were updated:
+  com.unity.collab-proxy from version 1.5.7 to 2.0.7
+  com.unity.ide.rider from version 2.0.7 to 3.0.24
+  com.unity.ide.visualstudio from version 2.0.11 to 2.0.18
+  com.unity.ide.vscode from version 1.2.3 to 1.2.5
+  com.unity.test-framework from version 1.1.26 to 1.1.33
+  com.unity.timeline from version 1.4.8 to 1.7.5
+  com.unity.xr.interaction.toolkit from version 1.0.0-pre.4 to 2.5.0
+  com.unity.xr.management from version 4.0.6 to 4.4.0
+  com.unity.xr.oculus from version 1.9.1 to 4.0.0
+  com.unity.xr.openxr from version 1.2.3 to 1.8.2
+
+=== Sat Mar  2 14:24:50 2024
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ai.navigation from version 1.1.4 to 1.1.5
+  com.unity.collab-proxy from version 2.0.7 to 2.2.0
+  com.unity.ide.rider from version 3.0.24 to 3.0.26
+  com.unity.ide.visualstudio from version 2.0.18 to 2.0.22
+  com.unity.timeline from version 1.7.5 to 1.7.6
+  com.unity.xr.interaction.toolkit from version 2.5.0 to 2.5.2
+  com.unity.xr.oculus from version 4.0.0 to 4.1.2
+  com.unity.xr.openxr from version 1.8.2 to 1.9.1
+
+=== Mon Apr 22 22:01:35 2024
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.collab-proxy from version 2.2.0 to 2.3.1
+  com.unity.ide.rider from version 3.0.26 to 3.0.28
+  com.unity.xr.oculus from version 4.1.2 to 4.2.0
+  com.unity.xr.openxr from version 1.9.1 to 1.10.0
+
+=== Sat Apr 27 21:32:04 2024
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.xr.interaction.toolkit from version 2.5.2 to 2.5.4
+
+=== Sun Apr 28 19:46:02 2024
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.collab-proxy from version 1.13.5 to 2.3.1
+  com.unity.ide.rider from version 3.0.7 to 3.0.28
+  com.unity.ide.visualstudio from version 2.0.11 to 2.0.22
+  com.unity.ide.vscode from version 1.2.4 to 1.2.5
+  com.unity.render-pipelines.high-definition from version 12.1.0 to 14.0.11
+  com.unity.render-pipelines.universal from version 12.1.0 to 14.0.11
+  com.unity.shadergraph from version 12.1.0 to 14.0.11
+  com.unity.test-framework from version 1.1.29 to 1.1.33
+  com.unity.timeline from version 1.6.2 to 1.7.6
+  com.unity.visualscripting from version 1.7.2 to 1.9.4
+
+=== Sun Apr 28 19:46:02 2024
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.render-pipelines.high-definition@14.0.11
+  com.unity.render-pipelines.universal@14.0.11
+  com.unity.shadergraph@14.0.11
+  com.unity.visualscripting@1.9.4
