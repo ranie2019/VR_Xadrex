@@ -1,0 +1,4 @@
+repository "Xadrez_VR@Ranie@cloud"
+  path "/"
+    br "/main"
+    co "/main"
