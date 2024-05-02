@@ -11,13 +11,13 @@ D:\Unity\2022.3.26f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/Unity Projetos/VR_Xadrex/UDEMY MultiplayerVR Template
+D:/Unity Projetos/VR_Xadrex/xadrex
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63551
-Successfully changed project path to: D:/Unity Projetos/VR_Xadrex/UDEMY MultiplayerVR Template
-D:/Unity Projetos/VR_Xadrex/UDEMY MultiplayerVR Template
+53398
+Successfully changed project path to: D:/Unity Projetos/VR_Xadrex/xadrex
+D:/Unity Projetos/VR_Xadrex/xadrex
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ D:/Unity Projetos/VR_Xadrex/UDEMY MultiplayerVR Template
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22948] Host "[IP] 10.0.0.152 [Port] 0 [Flags] 2 [Guid] 627625973 [EditorId] 627625973 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MU99ES9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24224] Host "[IP] 10.0.0.152 [Port] 0 [Flags] 2 [Guid] 1938621458 [EditorId] 1938621458 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MU99ES9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22948] Host "[IP] 10.0.0.152 [Port] 0 [Flags] 2 [Guid] 627625973 [EditorId] 627625973 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MU99ES9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24224] Host "[IP] 10.0.0.152 [Port] 0 [Flags] 2 [Guid] 1938621458 [EditorId] 1938621458 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MU99ES9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 27.67 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.68 ms.
+Refreshing native plugins compatible for Editor in 377.66 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 22.23 ms.
 Initialize engine version: 2022.3.26f1 (ec6cd8118806)
 [Subsystems] Discovering subsystems at path D:/Unity/2022.3.26f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity Projetos/VR_Xadrex/UDEMY MultiplayerVR Template/Assets
+[Subsystems] Discovering subsystems at path D:/Unity Projetos/VR_Xadrex/xadrex/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -71,51 +71,51 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2022.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2022.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2022.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2022.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2022.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/2022.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/Unity/2022.3.26f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.004993 seconds.
-- Loaded All Assemblies, in  0.354 seconds
+Registered in 0.004931 seconds.
+- Loaded All Assemblies, in  0.422 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 324 ms
+Android Extension - Scanning For ADB Devices 297 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.664 seconds
-Domain Reload Profiling: 1019ms
-	BeginReloadAssembly (105ms)
+- Finished resetting the current domain, in  0.700 seconds
+Domain Reload Profiling: 1122ms
+	BeginReloadAssembly (107ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (153ms)
-		LoadAssemblies (105ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
+		LoadAssemblies (107ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (150ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (135ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (165ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (665ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (701ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (605ms)
+		SetupLoadedEditorAssemblies (638ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (430ms)
+			InitializePlatformSupportModulesInManaged (439ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (118ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,8 +123,8 @@ Domain Reload Profiling: 1019ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.881 seconds
-Refreshing native plugins compatible for Editor in 15.53 ms, found 15 plugins.
+- Loaded All Assemblies, in  0.865 seconds
+Refreshing native plugins compatible for Editor in 16.43 ms, found 15 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -158,1095 +158,49 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.140 seconds
-Domain Reload Profiling: 2020ms
-	BeginReloadAssembly (145ms)
+- Finished resetting the current domain, in  1.029 seconds
+Domain Reload Profiling: 1894ms
+	BeginReloadAssembly (138ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (648ms)
-		LoadAssemblies (400ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (644ms)
+		LoadAssemblies (350ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (331ms)
-			TypeCache.Refresh (265ms)
-				TypeCache.ScanAssembly (242ms)
-			ScanForSourceGeneratedMonoScriptInfo (44ms)
+		AnalyzeDomain (373ms)
+			TypeCache.Refresh (303ms)
+				TypeCache.ScanAssembly (278ms)
+			ScanForSourceGeneratedMonoScriptInfo (48ms)
 			ResolveRequiredComponents (20ms)
-	FinalizeReload (1140ms)
+	FinalizeReload (1030ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (900ms)
+		SetupLoadedEditorAssemblies (799ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
+			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (702ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (609ms)
 			ProcessInitializeOnLoadMethodAttributes (75ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.63 seconds
-Refreshing native plugins compatible for Editor in 15.68 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.36 seconds
+Refreshing native plugins compatible for Editor in 91.66 ms, found 15 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 Unloading 8203 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 306 unused Assets / (13.9 MB). Loaded Objects now: 8569.
-Memory consumption went from 350.5 MB to 336.6 MB.
-Total: 7.869700 ms (FindLiveObjects: 0.697800 ms CreateObjectMapping: 0.761900 ms MarkObjects: 3.809300 ms  DeleteObjects: 2.599500 ms)
+Unloading 306 unused Assets / (14.0 MB). Loaded Objects now: 8570.
+Memory consumption went from 350.5 MB to 336.5 MB.
+Total: 7.843600 ms (FindLiveObjects: 0.650800 ms CreateObjectMapping: 0.644000 ms MarkObjects: 3.457800 ms  DeleteObjects: 3.090200 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 125404.126408 seconds.
-  path: Assets/IRONHEAD Games/Materials
-  artifactKey: Guid(6e444da6aad13214e9a63aa00dd6e9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IRONHEAD Games/Materials using Guid(6e444da6aad13214e9a63aa00dd6e9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0626c4908bb4a7b302c022112c8cc76') in 0.002371 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 10.362867 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(7a954f32cfd64f94aa5809e2bbc33d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(7a954f32cfd64f94aa5809e2bbc33d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1645953dc65b62570a77fd90c46b1efe') in 0.000546 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.482281 seconds.
-  path: Assets/Tree9
-  artifactKey: Guid(b4c020df3631fc94b95f26e57f08aa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree9 using Guid(b4c020df3631fc94b95f26e57f08aa54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75eb5b541d8a254cc0ed7b5971578d3') in 0.000613 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.688477 seconds.
-  path: Assets/TerrainSampleAssets
-  artifactKey: Guid(9a3cb14f3fd1a7446af4ec584c7c5e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets using Guid(9a3cb14f3fd1a7446af4ec584c7c5e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13b8b7468ccaddda6a161786256167c') in 0.000508 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 36.074362 seconds.
-  path: Assets/ProceduralTerrainPainter/_Demo/DemoScene.unity
-  artifactKey: Guid(b9f1a965ac3e580489af7e84e004a320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ProceduralTerrainPainter/_Demo/DemoScene.unity using Guid(b9f1a965ac3e580489af7e84e004a320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1f1847b97172220f71d9019f52056e') in 0.000528 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 44.941738 seconds.
-  path: Assets/Samples/OpenXR Plugin
-  artifactKey: Guid(0799f6a6d9f40a347ba55d20a486c71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/OpenXR Plugin using Guid(0799f6a6d9f40a347ba55d20a486c71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac2df183d8e7dc07a9b168bab4248f8') in 0.000482 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.559194 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1
-  artifactKey: Guid(792b33d5942d18f4a93cd24182f1453e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1 using Guid(792b33d5942d18f4a93cd24182f1453e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0396e38380a14760a66157a85872254') in 0.000502 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.554208 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Demo_Scene
-  artifactKey: Guid(945eb22a58da0dc4998633ec0e07bda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Demo_Scene using Guid(945eb22a58da0dc4998633ec0e07bda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bbd02706796fa704154fdda511bf91d') in 0.000495 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 10.949842 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Prefabs/HDRP
-  artifactKey: Guid(dcd64bf234eb3924983d5b4a537a115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Prefabs/HDRP using Guid(dcd64bf234eb3924983d5b4a537a115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db87e4370c53aae40316f85a9155499') in 0.000488 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.631341 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Falling_Leaves/Bambo.mat
-  artifactKey: Guid(e16513d8cd60985408f8399c329cf93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Falling_Leaves/Bambo.mat using Guid(e16513d8cd60985408f8399c329cf93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1fd1fd2523bb8a30ed5e055780925b') in 0.091007 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.366013 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Falling_Leaves/Rounded_Leaf.mat
-  artifactKey: Guid(f7f6861b9bd318245a96db9ae68bba58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Falling_Leaves/Rounded_Leaf.mat using Guid(f7f6861b9bd318245a96db9ae68bba58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9f2d9a89e7e973e8d1f38d2aa8ebe3') in 0.013817 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.504734 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Falling_Leaves/Diffus_Leaf.mat
-  artifactKey: Guid(1bfab513738dfc243b0b9750c6f49030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Falling_Leaves/Diffus_Leaf.mat using Guid(1bfab513738dfc243b0b9750c6f49030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93d708e19960f1607d76d29e0341035') in 0.021346 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.585765 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Falling_Leaves/Blosso_Colored_Leaf.mat
-  artifactKey: Guid(4bfc6c451dac4b24f98232759448f25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/Standard/Falling_Leaves/Blosso_Colored_Leaf.mat using Guid(4bfc6c451dac4b24f98232759448f25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442a65207513738014895585b4abfbcc') in 0.030649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 5.821534 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Prefabs/URP
-  artifactKey: Guid(c432da91c57397a449bf15ad4f561042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Prefabs/URP using Guid(c432da91c57397a449bf15ad4f561042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f491fad05b2e2063e36e76c2d76d10e7') in 0.000618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.453462 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials
-  artifactKey: Guid(d50f3cf699bd3ae488d88826248923ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials using Guid(d50f3cf699bd3ae488d88826248923ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be551ced4a33bb7cdfa3250c65a2bc9d') in 0.000559 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.763186 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP
-  artifactKey: Guid(b1c48ccc54a572f43b3b01341de75528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP using Guid(b1c48ccc54a572f43b3b01341de75528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d4865ec4432e8c9edd38a15969db67') in 0.000596 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.540575 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Bark
-  artifactKey: Guid(b5a5f533ac2291a4fad47890f7652faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Bark using Guid(b5a5f533ac2291a4fad47890f7652faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6ca8c2fc3917b015a09521aef5cbfc') in 0.000498 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.954795 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark/Wood_2.PNG
-  artifactKey: Guid(06de7d2e95d70a64f9f11c55afa1db36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark/Wood_2.PNG using Guid(06de7d2e95d70a64f9f11c55afa1db36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37815a3bd49afd514e1b30213419cf7f') in 0.046999 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark/Wood_2_Normal.png
-  artifactKey: Guid(69975e162fc792440bb43dcf5a4188f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark/Wood_2_Normal.png using Guid(69975e162fc792440bb43dcf5a4188f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5ff753f3ab4fbf9fb0d3e86d5ce7cf') in 0.059113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.281069 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark/Wood_3.png
-  artifactKey: Guid(6389b72cc01ad584aba4f17661f44ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark/Wood_3.png using Guid(6389b72cc01ad584aba4f17661f44ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15326840b5fcc4ff6d014eb07515186') in 0.011009 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark/Wood_3_Normal.png
-  artifactKey: Guid(ab321999c7b7d8945b324ee26b5973fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark/Wood_3_Normal.png using Guid(ab321999c7b7d8945b324ee26b5973fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e861ddce4d1911b5df3299c738f26550') in 0.010775 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.477741 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark/Wood_4.PNG
-  artifactKey: Guid(6d99b0bb6a83c1a479e529e8b52066fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark/Wood_4.PNG using Guid(6d99b0bb6a83c1a479e529e8b52066fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc5af64b4c9966ae5422a15f9529dbf') in 0.011005 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark/Wood_4_Normal.PNG
-  artifactKey: Guid(6e3b00b87faa92c45ba46114f7dab039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark/Wood_4_Normal.PNG using Guid(6e3b00b87faa92c45ba46114f7dab039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a99a82ebe606202d16093842fb0e94f') in 0.009944 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.524831 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark/Wood_5.png
-  artifactKey: Guid(954eb3f8e265cf5409a1bcfc03c887af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark/Wood_5.png using Guid(954eb3f8e265cf5409a1bcfc03c887af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b331dd86ffffc3fcd2fa9e32437adc') in 0.011421 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark/Wood_5_Normal.png
-  artifactKey: Guid(2c67adbdc567faf47a710853a4477b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark/Wood_5_Normal.png using Guid(2c67adbdc567faf47a710853a4477b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd57ec5e562604b00d5e4a5876f2ee5') in 0.011581 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.690881 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves
-  artifactKey: Guid(4ab2b101d46680543b099cba8cf489a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/HDRP/Falling_Leaves using Guid(4ab2b101d46680543b099cba8cf489a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6b2920566e4fcee168c98a76549710') in 0.000662 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 23.384013 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Bark
-  artifactKey: Guid(60c1b20e6d1f54444bc041fd3dc6dae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Bark using Guid(60c1b20e6d1f54444bc041fd3dc6dae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29be9f72c687312ee16a38b08762bae') in 0.000441 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.872775 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves
-  artifactKey: Guid(0156f099d539cb64497e7ea1133b7c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP/Leaves using Guid(0156f099d539cb64497e7ea1133b7c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb6c3bcd7822d09c3a039d0a1e303cd') in 0.000474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.453609 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP
-  artifactKey: Guid(b6b5e72d1a7ba1a4b835778395499181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Materials/URP using Guid(b6b5e72d1a7ba1a4b835778395499181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9b995ae57859359c31b031fc3f7f8c') in 0.000494 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.196186 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Bambo_1.fbx
-  artifactKey: Guid(6990bfdd8c5b4474a9e2b9b95e1de0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Bambo_1.fbx using Guid(6990bfdd8c5b4474a9e2b9b95e1de0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2407c096dfd26886f9c464e9aa762ade') in 0.068124 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.442631 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Bambo_Group_2.fbx
-  artifactKey: Guid(c19553918634ee84499b349fd0116e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Bambo_Group_2.fbx using Guid(c19553918634ee84499b349fd0116e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e3f9a244283270b0257c855e94a211') in 0.033320 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 3.326627 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Shaders/HDRP
-  artifactKey: Guid(6c7bc7415b09d0d41a7111aa987cfab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Shaders/HDRP using Guid(6c7bc7415b09d0d41a7111aa987cfab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b492464b72abb5a09a0b46b75631592') in 0.000786 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.426771 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Shaders/HDRP/Bark
-  artifactKey: Guid(1d8b4a577313be24790d0c1ca93ab283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Shaders/HDRP/Bark using Guid(1d8b4a577313be24790d0c1ca93ab283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3987bf1bcabcd49d4280b79180faf063') in 0.000582 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.324226 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Shaders/HDRP/Bark/Bark_Moss_HDRP.shadergraph
-  artifactKey: Guid(b6b6ae15b4b072b43b86fe59f1bf3067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Shaders/HDRP/Bark/Bark_Moss_HDRP.shadergraph using Guid(b6b6ae15b4b072b43b86fe59f1bf3067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4fa4e6d8d7d4d5204fb851028035a6') in 0.028660 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.146560 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Shaders/HDRP/Leaves/Leaf_Animation_HDRP.shadergraph
-  artifactKey: Guid(1f95a58d367b7224d911f8921a69f9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Shaders/HDRP/Leaves/Leaf_Animation_HDRP.shadergraph using Guid(1f95a58d367b7224d911f8921a69f9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed5ce8efffe951c81545c5d41da2569') in 0.017267 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.726054 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Shaders/URP/Bark
-  artifactKey: Guid(9a1eb7139d16be8449218507b1a754db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Shaders/URP/Bark using Guid(9a1eb7139d16be8449218507b1a754db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c490846bbc5ef99ec62271d592a2e923') in 0.000688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.488574 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Shaders/URP/Bark/Bark_Moss_URP.shadergraph
-  artifactKey: Guid(890381fcd370f4844b92eb2910154e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Shaders/URP/Bark/Bark_Moss_URP.shadergraph using Guid(890381fcd370f4844b92eb2910154e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35cd2d5a9b53c9cc31a8512568de6d5') in 0.008766 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.825736 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Shaders/URP/Leaves/Leaf_Animation_URP.shadergraph
-  artifactKey: Guid(66ce69aa57b06a0459df37d174c1ad64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Shaders/URP/Leaves/Leaf_Animation_URP.shadergraph using Guid(66ce69aa57b06a0459df37d174c1ad64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb7e1a7aaa4760810ef567f9fac81e5') in 0.008818 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 4.271542 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark
-  artifactKey: Guid(e9fdb4c7be7893d4faa9a8e73d5018d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Textures/Bark using Guid(e9fdb4c7be7893d4faa9a8e73d5018d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b17d4d781cbe2828968b455927f5aa') in 0.000454 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.208113 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Prefabs/Standard
-  artifactKey: Guid(d407af66ee4748b4594651e51282d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Prefabs/Standard using Guid(d407af66ee4748b4594651e51282d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30734435dde70e05f518bffed9cb4da1') in 0.000499 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 40.913395 seconds.
-  path: Assets/Games
-  artifactKey: Guid(e8cfd965d8ff3424ca34b4de4307f35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Games using Guid(e8cfd965d8ff3424ca34b4de4307f35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35927b4f9f9bbd915fb5c47cfc30a45') in 0.000552 seconds
-Number of updated asset objects reloaded before import = 7
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.877714 seconds.
-  path: Assets/Butterfly (Animated)
-  artifactKey: Guid(0d9b77d6703435240ba176d6d6add9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Butterfly (Animated) using Guid(0d9b77d6703435240ba176d6d6add9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12db5424f0d75e88765f23e0a24ddb8') in 0.000503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.162867 seconds.
-  path: Assets/Fantasy Forest Environment Free Sample
-  artifactKey: Guid(8fcb44eae0861db409a23043544a4292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Forest Environment Free Sample using Guid(8fcb44eae0861db409a23043544a4292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b47ada2ec2dec2778f5ea0901318d1c') in 0.000857 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.591 seconds
-Refreshing native plugins compatible for Editor in 16.33 ms, found 15 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <8a5cd56eb1bb450ba65aa5485166bfb3>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.499 seconds
-Domain Reload Profiling: 2088ms
-	BeginReloadAssembly (175ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (336ms)
-		LoadAssemblies (327ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (93ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (58ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (1499ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (730ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (552ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 15.48 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 7981 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 257 unused Assets / (13.3 MB). Loaded Objects now: 8622.
-Memory consumption went from 300.9 MB to 287.6 MB.
-Total: 7.253200 ms (FindLiveObjects: 0.599000 ms CreateObjectMapping: 0.603900 ms MarkObjects: 3.686000 ms  DeleteObjects: 2.363400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 23.086732 seconds.
-  path: Assets/Games/Scenes/World_School.unity
-  artifactKey: Guid(b72244336204212439510723e69fa9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Games/Scenes/World_School.unity using Guid(b72244336204212439510723e69fa9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db31ab6933651ff02c70d97d5686b11') in 0.001672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 65.512353 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Apartment_Kit.prefab
-  artifactKey: Guid(9f5cf41eb9d32ea47906bc22c07fc533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Apartment_Kit.prefab using Guid(9f5cf41eb9d32ea47906bc22c07fc533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0078a2b1ccc20b0fbd2e2fb9ce5960') in 0.395324 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 369
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_01.prefab
-  artifactKey: Guid(71546b2097e63004893a3528d003a956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_01.prefab using Guid(71546b2097e63004893a3528d003a956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1089d7b777d093567d7aa28e714a4ac5') in 0.019483 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Asteroid01.fbx
-  artifactKey: Guid(401fae203bae0ee428e401e7f9af9be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Asteroid01.fbx using Guid(401fae203bae0ee428e401e7f9af9be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dec1b17fc21173ce1a2ee1b198147d') in 0.022763 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Games/Prefabs/Avatars/Avatar5.prefab
-  artifactKey: Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Games/Prefabs/Avatars/Avatar5.prefab using Guid(089d38c2beff1f044b446797593d7269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ba1a1f48106c7c958180ce56e8fd91') in 0.010715 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 49
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_01_02.prefab
-  artifactKey: Guid(8af73887c9cd7fa47a2f642969b20378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_01_02.prefab using Guid(8af73887c9cd7fa47a2f642969b20378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e687c09972b4bc6a26bcf1901fc681b') in 0.150627 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Games/Model/Avatar5.fbx
-  artifactKey: Guid(166544fdcae3ad745835e01eacb2f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Games/Model/Avatar5.fbx using Guid(166544fdcae3ad745835e01eacb2f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4521403dc2e23d063139ad425f0347c0') in 0.067220 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_04.prefab
-  artifactKey: Guid(aa765da573f752d409b64961b914353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_04.prefab using Guid(aa765da573f752d409b64961b914353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5face9ed9592b5b470718eecea05c07b') in 0.068785 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 149
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_03_Filled.prefab
-  artifactKey: Guid(3d51d280e33c5fe4c97ae593c2292997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_03_Filled.prefab using Guid(3d51d280e33c5fe4c97ae593c2292997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc098c1608744b5b46f823f333ca0310') in 0.073256 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 214
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Apartment/Apartment Kit/Common/Models/Apt_Furniture_01.fbx
-  artifactKey: Guid(7a1dd57bd8b6ca44cbf5f922801b2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/Common/Models/Apt_Furniture_01.fbx using Guid(7a1dd57bd8b6ca44cbf5f922801b2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd974c165481087918e27592f4cc027ba') in 0.369367 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 379
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_02_01.prefab
-  artifactKey: Guid(79723f7a04c42fa4cb0fefb4f7686381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_02_01.prefab using Guid(79723f7a04c42fa4cb0fefb4f7686381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bf7b059ba1bc3ef3890a0221e48887') in 0.048764 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 100
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Bambo_2.fbx
-  artifactKey: Guid(d90f5c03ce3823945a0b4bc745c0ea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Bambo_2.fbx using Guid(d90f5c03ce3823945a0b4bc745c0ea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8395b1fbe4863517255096b720fe41') in 0.024400 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Games/Prefabs/Avatar Selection Prefabs/AvatarSelectionPlatform.prefab
-  artifactKey: Guid(43be1c43d5fc9f448a974c20312e9e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Games/Prefabs/Avatar Selection Prefabs/AvatarSelectionPlatform.prefab using Guid(43be1c43d5fc9f448a974c20312e9e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad5ce9853ceaea29f731ec4d778bd01') in 0.107941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 264
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Filled.prefab
-  artifactKey: Guid(d17c15e72c29a9f49879ff3b971bd44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Filled.prefab using Guid(d17c15e72c29a9f49879ff3b971bd44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8463d6f870869abb7a3ee5276274712b') in 0.092684 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 901
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Apartment/Apartment Kit/Common/Models/Apt_Kit_01.fbx
-  artifactKey: Guid(cd0bf29c9c9af6f4098b74076d25f0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/Common/Models/Apt_Kit_01.fbx using Guid(cd0bf29c9c9af6f4098b74076d25f0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63ac6451b40e2ae6fba2fe966c37465') in 0.097032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 99
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Basic_1.fbx
-  artifactKey: Guid(b60f542b93dddda4292fa56755b6ac28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Basic_1.fbx using Guid(b60f542b93dddda4292fa56755b6ac28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b816b53c8a6a00824ba06d750de8325f') in 0.023590 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Bonsai.fbx
-  artifactKey: Guid(3b266fcc93d3995458ea5cf4284ef98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Bonsai.fbx using Guid(3b266fcc93d3995458ea5cf4284ef98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b48be1797f857046ff159a030c9ee96') in 0.032052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Games/Model/Avatar1.fbx
-  artifactKey: Guid(e1771d0663ea83f4cb714ab1ce1d3d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Games/Model/Avatar1.fbx using Guid(e1771d0663ea83f4cb714ab1ce1d3d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0384fa578d16fa987620252589e0371') in 0.049496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Apartment/Apartment Kit/Common/Models/Apt_Furniture_02.fbx
-  artifactKey: Guid(95cac277c5a04ef43add167566755e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/Common/Models/Apt_Furniture_02.fbx using Guid(95cac277c5a04ef43add167566755e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef117993ce3ceb6ac6e03cdc561b29c9') in 0.249749 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 279
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_CenterBase.prefab
-  artifactKey: Guid(4c9bf42b955bc1a4b83f6740aea218cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_CenterBase.prefab using Guid(4c9bf42b955bc1a4b83f6740aea218cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac640dd935892b06dd551decf6546580') in 0.016621 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 129
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Games/Prefabs/Avatars/Avatar4.prefab
-  artifactKey: Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Games/Prefabs/Avatars/Avatar4.prefab using Guid(47133d67b3a40f04eb97e5089982ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfcd414af8552d097003ece021152f5') in 0.010552 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Apartment/Apartment Kit/Common/Models/Apt_Props_02.fbx
-  artifactKey: Guid(18a06f327a98b134b82b2c13d6c3a3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/Common/Models/Apt_Props_02.fbx using Guid(18a06f327a98b134b82b2c13d6c3a3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d8a4bbb2adc020d4fa7e55a60cff34') in 0.085661 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 59
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Misc/Bench_Apt_02.prefab
-  artifactKey: Guid(843e4058e4b291d44bc18a16bdfae4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Misc/Bench_Apt_02.prefab using Guid(843e4058e4b291d44bc18a16bdfae4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae9072fb6b9ef0c5c674758e4e89db1') in 0.033331 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Apartment/Apartment Kit/Common/Models/Apt_Kit_02.fbx
-  artifactKey: Guid(c31198774d98d9f43be2ca79cb0a84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/Common/Models/Apt_Kit_02.fbx using Guid(c31198774d98d9f43be2ca79cb0a84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4dfd0a155b3913b0d9bd8188933e980') in 0.247377 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 179
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Apartment/Apartment Kit/Common/Models/Apt_Props_01.fbx
-  artifactKey: Guid(34e386a75bb8feb4aa0f48b512cbb268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/Common/Models/Apt_Props_01.fbx using Guid(34e386a75bb8feb4aa0f48b512cbb268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dac7f0a31f13cda7a78b9ad8b5c6fe7') in 0.634985 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 414
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Games/Model/Avatar4.fbx
-  artifactKey: Guid(2c913c71a75caeb47ac99021ed481226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Games/Model/Avatar4.fbx using Guid(2c913c71a75caeb47ac99021ed481226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b8a21f2b6ac0dccbbc27dfa90d0e34') in 0.054172 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Tower.prefab
-  artifactKey: Guid(50f7395fbbcbfff47b55a68bd9ca5773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Tower.prefab using Guid(50f7395fbbcbfff47b55a68bd9ca5773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71003c713fe5b24221bc49d85429144a') in 0.012562 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 58
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Props/Kitchen/Blender_Apt_01.prefab
-  artifactKey: Guid(8b726a9375ea2e442aa068972abf0c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Props/Kitchen/Blender_Apt_01.prefab using Guid(8b726a9375ea2e442aa068972abf0c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7afb6bf1d35058beba202d67fd6d167') in 0.046083 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_01_Filled Variant.prefab
-  artifactKey: Guid(16309159579d34a4c92f5e68f4824d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_01_Filled Variant.prefab using Guid(16309159579d34a4c92f5e68f4824d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff76b56530cfb630cc53e369179ac1d') in 0.053346 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 322
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Center.prefab
-  artifactKey: Guid(8915be8858dae144eb1415e1fada3eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Center.prefab using Guid(8915be8858dae144eb1415e1fada3eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e667dddbdd4b516292d995e39848863') in 0.012739 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 68
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_01_01.prefab
-  artifactKey: Guid(bd82980ec0e466d48a84803eba02265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_01_01.prefab using Guid(bd82980ec0e466d48a84803eba02265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d82ebf8f8c2b65591e29ca4d6c31e4e') in 0.013255 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Apartment/_BPS Basic Assets/Common/Models/BA_Ceiling Light_01.fbx
-  artifactKey: Guid(f10ecbc237630d9469cea29121d074f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/_BPS Basic Assets/Common/Models/BA_Ceiling Light_01.fbx using Guid(f10ecbc237630d9469cea29121d074f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bee16a7beb86cb64888cafbaa4fa701') in 0.021847 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Base.prefab
-  artifactKey: Guid(929be27b7388507448e23941feba1828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Base.prefab using Guid(929be27b7388507448e23941feba1828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c0643d6fe72ae68173c84fbcdb869a') in 0.013162 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_CenterTower.prefab
-  artifactKey: Guid(f0f8347ddc1d5ed4bb8d2379f9008300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_CenterTower.prefab using Guid(f0f8347ddc1d5ed4bb8d2379f9008300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f22d165630476446d1bcf56bf46fe6b') in 0.014651 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 112
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Games/Prefabs/Avatars/Avatar3.prefab
-  artifactKey: Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Games/Prefabs/Avatars/Avatar3.prefab using Guid(e8090dbb771374144a023faf37db10eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2559d5f126847051556179f9375f664c') in 0.010482 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Basic_3.fbx
-  artifactKey: Guid(28af00bb8301ae74080646e51f2938e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Basic_3.fbx using Guid(28af00bb8301ae74080646e51f2938e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21df3b430b89e8d7d4a88fb4b8a01bd1') in 0.049699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Apartment/_BPS Basic Assets/_Prefabs/Base Scene/BA_First Person Player.prefab
-  artifactKey: Guid(a9b081014bad86f4a80b60284279d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/_BPS Basic Assets/_Prefabs/Base Scene/BA_First Person Player.prefab using Guid(a9b081014bad86f4a80b60284279d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7257ae3cd59505c5ec2eb25e3da22bf6') in 0.054011 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Bathroom/BathTub_Base_01.prefab
-  artifactKey: Guid(cb533d6f7329a744fb5c0396de1b8b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Bathroom/BathTub_Base_01.prefab using Guid(cb533d6f7329a744fb5c0396de1b8b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79db2cd12c36009a28155fa74bdc6e8e') in 0.163362 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 56
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Bambo_Group_1.fbx
-  artifactKey: Guid(db95cbccd298b2f4eab1a5088fd00a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Bambo_Group_1.fbx using Guid(db95cbccd298b2f4eab1a5088fd00a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ef60632422c9e8a4b077675125a3a4') in 0.024035 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Basic_2.fbx
-  artifactKey: Guid(fdd236aa69ec6414aaf63cbc27044e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Basic_2.fbx using Guid(fdd236aa69ec6414aaf63cbc27044e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da7f894dcfc910bbb8fd5392f8c3017') in 0.023288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Games/Prefabs/Avatars/Avatar2.prefab
-  artifactKey: Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Games/Prefabs/Avatars/Avatar2.prefab using Guid(0c74eca2d21234b42b00d95293f1ee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6f5b91bb4cb41eede8f4c2f93c7cff') in 0.011563 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_04_Filled.prefab
-  artifactKey: Guid(2e2398df6726e164fb29cbffecf878a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_04_Filled.prefab using Guid(2e2398df6726e164fb29cbffecf878a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb5820a647ae8858cc38392c62577e0') in 0.124995 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 215
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Living Room/Bench_Apt_01.prefab
-  artifactKey: Guid(544e2a3365ece1e428837232ca8b768d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Living Room/Bench_Apt_01.prefab using Guid(544e2a3365ece1e428837232ca8b768d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f855d14c9d5ed2293aaa82844b0b0a') in 0.019062 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02.prefab
-  artifactKey: Guid(86ae21e881865b04f8548c4edade5fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02.prefab using Guid(86ae21e881865b04f8548c4edade5fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ee3917829a0570904b99de95d6bf50') in 0.015797 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 149
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Apartment/Apartment Kit/Common/Models/Apt_Rail.fbx
-  artifactKey: Guid(7c69e40725f2d1a4687ecf3e80b2dfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/Common/Models/Apt_Rail.fbx using Guid(7c69e40725f2d1a4687ecf3e80b2dfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b091e412ad70fb74c1a04cc585c30d') in 0.022131 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Apartment/Apartment Kit/Common/Models/Bathroom_apt_02.fbx
-  artifactKey: Guid(e9aeceee86b8ae7408c09bcee860a520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/Common/Models/Bathroom_apt_02.fbx using Guid(e9aeceee86b8ae7408c09bcee860a520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902e949db61516e0c52ce31183755485') in 0.030185 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Games/Model/Avatar3.fbx
-  artifactKey: Guid(791644c7414d4f24d8420d92e728e091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Games/Model/Avatar3.fbx using Guid(791644c7414d4f24d8420d92e728e091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e8023b3019efd0c1ba5d8dbbc5bdb8') in 0.045013 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Games/Prefabs/Avatars/Avatar1.prefab
-  artifactKey: Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Games/Prefabs/Avatars/Avatar1.prefab using Guid(69edaa7f6d0367845b76420b47e4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cc92394044974aadd364d4d75a1ebf') in 0.010854 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Apartment/Apartment Kit/Common/Models/Bathroom_Apt_01.fbx
-  artifactKey: Guid(651d77a525480c84e9327ec0894c0da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/Common/Models/Bathroom_Apt_01.fbx using Guid(651d77a525480c84e9327ec0894c0da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9758a2737114c3d2c09254d9d1a2308') in 0.271593 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 290
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Basic_4.fbx
-  artifactKey: Guid(369d476bd3095164bb10e9b7b926e37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleSceneAssets/Asian Tree Package Vol.1/Source/Models/Basic_4.fbx using Guid(369d476bd3095164bb10e9b7b926e37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a09055282bffc45a6787a9bba6fcf73') in 0.026880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Games/Model/Avatar2.fbx
-  artifactKey: Guid(91cbd9356c50e0c40bfa26bdc36290c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Games/Model/Avatar2.fbx using Guid(91cbd9356c50e0c40bfa26bdc36290c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ce2e4879a758c54eaad216fda48145') in 0.046435 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Apartment/Apartment Kit/Common/Models/Bathroom_Corner_Tiles.fbx
-  artifactKey: Guid(d265ac661f1c8d64386d043a4b4b8f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/Common/Models/Bathroom_Corner_Tiles.fbx using Guid(d265ac661f1c8d64386d043a4b4b8f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e339597f68597fe1479a565a05e238') in 0.023866 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_03.prefab
-  artifactKey: Guid(f193bec3a0b87ca45a9dc2e7af25e968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_03.prefab using Guid(f193bec3a0b87ca45a9dc2e7af25e968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29fee464f51e28dcc1e5df6d64ab118') in 0.013133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 90
-========================================================================
-Received Import Request.
-  Time since last request: 62.850872 seconds.
-  path: Assets/Chess Set/Chess Set.fbx
-  artifactKey: Guid(333d9e0c2d0c22bb5ad021bc40a7a257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chess Set/Chess Set.fbx using Guid(333d9e0c2d0c22bb5ad021bc40a7a257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdcae8588b9eec19f299a13f1d6d6b7') in 0.347236 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 187
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.516 seconds
-Refreshing native plugins compatible for Editor in 16.60 ms, found 15 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <8a5cd56eb1bb450ba65aa5485166bfb3>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.540 seconds
-Domain Reload Profiling: 2055ms
-	BeginReloadAssembly (161ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (285ms)
-		LoadAssemblies (324ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (38ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (1541ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (759ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (577ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 16.64 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 7981 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 257 unused Assets / (13.3 MB). Loaded Objects now: 8629.
-Memory consumption went from 303.6 MB to 290.2 MB.
-Total: 7.117100 ms (FindLiveObjects: 0.640300 ms CreateObjectMapping: 0.706400 ms MarkObjects: 3.478900 ms  DeleteObjects: 2.290600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.508 seconds
-Refreshing native plugins compatible for Editor in 16.10 ms, found 15 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <8a5cd56eb1bb450ba65aa5485166bfb3>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.582 seconds
-Domain Reload Profiling: 2090ms
-	BeginReloadAssembly (164ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (275ms)
-		LoadAssemblies (322ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (32ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1583ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (776ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (105ms)
-			ProcessInitializeOnLoadAttributes (582ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 16.92 ms, found 15 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 7981 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 257 unused Assets / (13.3 MB). Loaded Objects now: 8634.
-Memory consumption went from 303.6 MB to 290.3 MB.
-Total: 7.855000 ms (FindLiveObjects: 0.622500 ms CreateObjectMapping: 0.686700 ms MarkObjects: 4.203200 ms  DeleteObjects: 2.341500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
