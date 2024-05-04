@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Games/Scenes/HomeScene.unity
+- path: Assets/Games/Scenes/World_School.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
